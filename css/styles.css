@@ -17,6 +17,10 @@ body {
 }
 
 /* section nav */
+.logo {
+    color: #000000;
+}
+
 .site-nav .link {
     color: #212121;
 }
@@ -48,7 +52,7 @@ body {
     cursor: pointer;
 }
 
-
+/*секция наши преимущества (benefits)*/
 .benefits-title {
     color: #212121;
     text-transform: uppercase;
@@ -62,8 +66,20 @@ body {
     line-height: 171%;
 }
 
+/* секция чем мы занимаемся */
 .section-title {
     color: #212211;
     font-size: 36px;
     line-height: 42px;
+}
+
+/* секция наша команда */
+.card-text {
+    color: #757575;
+}
+
+
+/* footer */
+.logo-footer {
+    color: #2196F3;
 }
