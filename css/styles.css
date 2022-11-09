@@ -44,13 +44,14 @@ body {
     text-decoration: none;
 }
 
-.nav-link {
+.header .nav-link {
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
-    color: currentColor;
+    color: #212121;
 }
 
 .nav-link:hover,
@@ -71,6 +72,10 @@ body {
     color: #2196F3;
 }
 
+.nav-menu .link.current {
+    color: #2196F3;
+}
+
 .hero {
     background-color: #2F303A;
 }
@@ -86,10 +91,11 @@ body {
 }
 
 .hero-button {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: calc (30 / 16);
-
+    line-height: calc(30 / 16);
     display: flex;
     align-items: center;
     text-align: center;
@@ -202,6 +208,8 @@ body {
 }
 
 .button {
+    font-family: 'Roboto';
+    font-style: normal;
     color: var(--main-dark-clr);
     background-color: #F5F4FA;
     font-weight: 500;
